@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "347283127323",
+    "project_id": "chisu-cht",
+    "storage_bucket": "chisu-cht.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347283127323:android:8bb2fbda13a6eb2edc8cbe",
+        "android_client_info": {
+          "package_name": "com.chisu.cht"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiDh6QEWNIKEKzEyEezFaFu6cWQb2O_JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347283127323:android:94e51f320d00b25bdc8cbe",
+        "android_client_info": {
+          "package_name": "com.symatechlabs.devicedetails"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiDh6QEWNIKEKzEyEezFaFu6cWQb2O_JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

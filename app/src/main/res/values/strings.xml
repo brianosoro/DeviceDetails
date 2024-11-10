@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Device Details</string>
+    <string name="app_ver">0.0.0.1</string>
+    <string name="home">Home</string>
+    <string name="settings">About</string>
+
+    <string name="email">info@symatechlabs.com</string>
+    <string name="website">symatechlabs.com</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share_app">Share App</string>
+    <string name="location">MAPS</string>
+    <string name="share">SHARE</string>
+    <string name="note">Note</string>
+    <string name="device_name">Device Name</string>
+    <string name="device_model">Device Model</string>
+    <string name="device_os">Device OS Version</string>
+    <string name="next">Next</string>
+    <string name="proceed_caps">PROCEED</string>
+    <string name="share_caps">SHARE</string>
+
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryWhite"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Device Details"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/museo"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="24dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:fontFamily="@font/museo"
+            android:textStyle="bold"
+            android:text="Device ID"
+            />
+
+        <EditText
+            android:id="@+id/deviceID"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_text_border"
+            android:fontFamily="@font/museo"
+            android:paddingLeft="@dimen/size_12"
+            android:textColorHint="@color/hint_text"
+            android:layout_marginBottom="10dp"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:fontFamily="@font/museo"
+            android:textStyle="bold"
+            android:text="@string/device_name"
+            />
+
+        <EditText
+            android:id="@+id/deviceName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_text_border"
+            android:fontFamily="@font/museo"
+            android:paddingLeft="@dimen/size_12"
+            android:textColorHint="@color/hint_text"
+            android:layout_marginBottom="10dp"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:fontFamily="@font/museo"
+            android:textStyle="bold"
+            android:text="@string/device_model"
+            />
+
+        <EditText
+            android:id="@+id/deviceModel"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_text_border"
+            android:fontFamily="@font/museo"
+            android:paddingLeft="@dimen/size_12"
+            android:textColorHint="@color/hint_text"
+            android:layout_marginBottom="10dp"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:fontFamily="@font/museo"
+            android:textStyle="bold"
+            android:text="@string/device_os"
+            />
+
+        <EditText
+            android:id="@+id/deviceOSVersion"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_text_border"
+            android:fontFamily="@font/museo"
+            android:paddingLeft="@dimen/size_12"
+            android:textColorHint="@color/hint_text"
+            android:layout_marginBottom="10dp"
+            android:textSize="13sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="@dimen/size_12"
+            android:layout_marginBottom="54dp"
+            android:background="@drawable/button_layout"
+            android:fontFamily="@font/museo"
+            android:text="@string/next"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

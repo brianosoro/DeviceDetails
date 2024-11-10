@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <color name="primaryColor">#e81e25</color>
+    <color name="black">#000000</color>
+    <color name="fadeGreen">#e81e25</color>
+    <color name="dialog_background_light_color">#f7f7f7</color>
+
+    <color name="primaryWhite">#FFFFFF</color>
+    <color name="gray">#858585</color>
+    <color name="bodyColor">#f0f1f5</color>
+
+    <color name="light_gray">#a9b6c6</color>
+    <color name="light_red">#c7899c</color>
+    <color name="pale_light_red">#ff7081</color>
+    <color name="gray_text">#828b9d</color>
+    <color name="green">#49de85</color>
+    <color name="transparent">#0300FF19</color>
+    <color name="edit_text_border_line">#e7edf4</color>
+    <color name="colorPrimary">#e81e25</color>
+    <color name="hint_text">#9fa4c0</color>
+</resources>
