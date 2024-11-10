@@ -1,8 +1,8 @@
 {
   "project_info": {
-    "project_number": "347283127323",
-    "project_id": "chisu-cht",
-    "storage_bucket": "chisu-cht.firebasestorage.app"
+    "project_number": "xxxxxxxxx",
+    "project_id": "xxxxxxxxx",
+    "storage_bucket": "xxxxxxxxx.firebasestorage.app"
   },
   "client": [
     {
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAiDh6QEWNIKEKzEyEezFaFu6cWQb2O_JA"
+          "current_key": "xxxxxxxxx"
         }
       ],
       "services": {
@@ -34,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAiDh6QEWNIKEKzEyEezFaFu6cWQb2O_JA"
+          "current_key": "xxxxxxxxx"
         }
       ],
       "services": {
